@@ -6,6 +6,7 @@
   --text-info: #757575;
   --block-color: #ffffff;
   --background: #238de4;
+  --fill-icon: #afb1b8;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -64,15 +65,33 @@ h6 {
   fill: currentColor;
   margin-right: 10px;
 }
-
+/*-------------------------------ВНИМАНИЕ К ДЕТЯЛЯМ------------------*/
+.hero-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+}
 /*-------------------------------IKONKI------------------*/
+.prsonal-card-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
 .prsonal-card-link {
   width: 44px;
   height: 44px;
-  background-color: tomato;
+  background-color: transparent;
   border-radius: 50%;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--fill-icon);
 }
+/*------------------------------- НАША  КОМАНДА------------------*/
 
 .prsonal-card-list {
   justify-content: center;
@@ -82,9 +101,17 @@ h6 {
 .prsonal-card-item {
   margin-left: 10px;
 }
-
-/*-------------------------------NOW------------------*/
-.header-list-contact {
+/*------------------------------- ПОСТОЯННЫЕ КЛИЕНТЫ------------------*/
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  margin-bottom: 50px;
+}
+------------NOW------------------*/ .header-list-contact {
   display: flex;
   margin-left: auto;
 }
