@@ -93,19 +93,21 @@ h6 {
   fill: var(--fill-icon);
 }
 /*------------------------------- НАША  КОМАНДА------------------*/
+.personal-card-icon:hover,
+.personal-card-icon:focus {
+  background-color: var(--color);
+  content: var(--block-color);
+}
 
-.prsonal-card-list {
+.personal-card-list {
   justify-content: center;
   margin-top: 16px;
 }
 
-.prsonal-card-item {
+.personal-card-item {
   margin-left: 10px;
 }
-.prsonal-card-item:hover,
-.prsonal-card-item:focus {
-  color: var(--color);
-}
+
 /*------------------------------- ПОСТОЯННЫЕ КЛИЕНТЫ------------------*/
 .clients-title {
   font-weight: 700;
@@ -116,7 +118,8 @@ h6 {
   color: var(--text-color);
   margin-bottom: 50px;
 }
-------------NOW------------------*/ .header-list-contact {
+/*------------NOW-----------------------------------*/
+.header-list-contact {
   display: flex;
   margin-left: auto;
 }
@@ -181,6 +184,9 @@ h6 {
 }
 
 /*-------------------------------ХЕДЕР-------------------------*/
+.header-list-contact {
+  margin-left: auto;
+}
 
 /*------------КОНТАКТЫ---------*/
 .header-item-contact {
