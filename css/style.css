@@ -33,6 +33,7 @@ h6 {
 
 .list {
   display: flex;
+  margin-left: auto;
 }
 .list {
   list-style: none;
@@ -100,6 +101,10 @@ h6 {
 
 .prsonal-card-item {
   margin-left: 10px;
+}
+.prsonal-card-item:hover,
+.prsonal-card-item:focus {
+  color: var(--color);
 }
 /*------------------------------- ПОСТОЯННЫЕ КЛИЕНТЫ------------------*/
 .clients-title {
@@ -279,6 +284,7 @@ h6 {
 }
 
 .hero-link-title {
+  margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
