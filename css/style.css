@@ -77,6 +77,11 @@ h6 {
   height: 120px;
 }
 /*-------------------------------IKONKI------------------*/
+.personal-card-link:hover,
+.personal-card-link:focus {
+  background-color: var(--color);
+  content: var(--block-color);
+}
 .prsonal-card-list {
   display: flex;
   justify-content: center;
@@ -92,7 +97,11 @@ h6 {
   align-items: center;
   fill: var(--fill-icon);
 }
+.personal-card-icon {
+  color: var(--fill-icon);
+}
 /*------------------------------- НАША  КОМАНДА------------------*/
+
 .personal-card-icon:hover,
 .personal-card-icon:focus {
   background-color: var(--color);
@@ -102,10 +111,6 @@ h6 {
 .personal-card-list {
   justify-content: center;
   margin-top: 16px;
-}
-
-.personal-card-item {
-  margin-left: 10px;
 }
 
 /*------------------------------- ПОСТОЯННЫЕ КЛИЕНТЫ------------------*/
