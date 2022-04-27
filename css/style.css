@@ -77,12 +77,16 @@ h6 {
   height: 120px;
 }
 /*-------------------------------IKONKI------------------*/
-.social-links {
+.personal-card-icon {
   fill: #afb1b8;
 }
-.social-links:hover,
-.social-links:focus {
+.social-links:hover {
+  background-color: #2196f3;
 }
+.social-links:hover .personal-card-icon {
+  fill: #ffffff;
+}
+
 .prsonal-card-list {
   display: flex;
   justify-content: center;
@@ -97,23 +101,12 @@ h6 {
   justify-content: center;
   align-items: center;
 }
-.clients-item:hover,
-.clients-item:focus {
-}
-.clients-link:hover,
-.clients-link:focus {
-}
+
 /*------------------------------- НАША  КОМАНДА------------------*/
 .personal-card-item + .personal-card-item {
   margin-left: 10px;
 }
-.personal-card-icon:hover,
-.personal-card-icon:focus {
-}
-.personal-card-icon {
-}
-.personal-card-icon {
-}
+
 .personal-card-list {
   justify-content: center;
   margin-top: 16px;
@@ -133,6 +126,11 @@ h6 {
   display: flex;
   justify-content: center;
 }
+
+.clients-link:hover {
+  fill: #2196f3;
+}
+
 .clients-link {
   width: 170px;
   height: 92px;
@@ -142,6 +140,7 @@ h6 {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
+  fill: var(--fill-icon);
 }
 .clients-item + .clients-item {
   margin-left: 30px;
@@ -488,6 +487,8 @@ h6 {
   padding-bottom: 60px;
 }
 /*----------------------  ПРИСОЕДИНЯЙТЕСЬ-----------------------------------*/
+.acept {
+}
 .footer-flex {
   margin-right: 70px;
 }
