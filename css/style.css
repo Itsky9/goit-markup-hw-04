@@ -90,15 +90,17 @@ h6 {
 .social-links {
   width: 44px;
   height: 44px;
-  background-color: transparent;
+
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  fill: var(--fill-icon);
 }
-.personal-card-icon {
-  fill: var(--fill-icon);
+.clients-item:hover,
+.clients-item:focus {
+}
+.clients-link:hover,
+.clients-link:focus {
 }
 /*------------------------------- НАША  КОМАНДА------------------*/
 .personal-card-item + .personal-card-item {
@@ -106,10 +108,12 @@ h6 {
 }
 .personal-card-icon:hover,
 .personal-card-icon:focus {
-  background-color: var(--color);
-  fill: var(--block-color);
+  background-color: #2196f3;
 }
-
+.personal-card-icon {
+}
+.personal-card-icon {
+}
 .personal-card-list {
   justify-content: center;
   margin-top: 16px;
@@ -138,20 +142,22 @@ h6 {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
-  fill: var(--fill-icon);
 }
 .clients-item + .clients-item {
   margin-left: 30px;
 }
 .clients-link:hover,
 .clients-link:focus {
-  color: var(--color);
   border: 1px solid var(--color);
 }
 
 .acept-link:hover,
 .acept-link:focus {
   background-color: var(--background);
+}
+.footer.container {
+  display: flex;
+  align-items: baseline;
 }
 /*------------NOW-----------------------------------*/
 .header-list-contact {
