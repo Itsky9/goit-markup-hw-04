@@ -77,10 +77,11 @@ h6 {
   height: 120px;
 }
 /*-------------------------------IKONKI------------------*/
+.social-links {
+  fill: #afb1b8;
+}
 .social-links:hover,
 .social-links:focus {
-  background-color: var(--color);
-  content: var(--block-color);
 }
 .prsonal-card-list {
   display: flex;
@@ -108,7 +109,6 @@ h6 {
 }
 .personal-card-icon:hover,
 .personal-card-icon:focus {
-  background-color: #2196f3;
 }
 .personal-card-icon {
 }
