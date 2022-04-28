@@ -45,11 +45,6 @@ h6 {
   height: auto;
   max-width: 100%;
 }
-.images-portfolio-item:hover {
-  box-sizing: border-box;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
 
 /* ------------------Лого-------------*/
 .footer .container {
@@ -70,6 +65,10 @@ h6 {
   margin-left: 93px;
 }
 /*---------------ICONS-----------------*/
+.link-contact {
+  display: flex;
+  align-items: center;
+}
 .icon-mail {
   display: inline-block;
   margin-right: 10px;
@@ -91,13 +90,21 @@ h6 {
   height: 120px;
 }
 /*-------------------------------IKONKI------------------*/
+
 .personal-card-icon {
   fill: #afb1b8;
 }
-.social-links:hover {
+.social-links:hover,
+.social-links:focus {
+  fill: #ffffff;
   background-color: #2196f3;
 }
+
 .social-links:hover .personal-card-icon {
+  fill: #ffffff;
+}
+.social-links:hover,
+.social-links:focus .personal-card-icon {
   fill: #ffffff;
 }
 
@@ -141,7 +148,8 @@ h6 {
   justify-content: center;
 }
 
-.clients-link:hover {
+.clients-link:hover,
+.clients-link:focus {
   fill: #2196f3;
 }
 
@@ -655,6 +663,11 @@ h6 {
   margin-left: 333px;
 }
 /*------------------------НАШИ САЙТЫ------------------*/
+.button-item:hover,
+.button-item:focus {
+  box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%),
+    0px 2px 2px rgb(0 0 0 / 12%);
+}
 .header-list-item-button {
   list-style-type: none;
 }
@@ -755,6 +768,13 @@ h6 {
   color: var(--text-info);
 }
 /*----------------------------------КАРТИНКИ = 9 --------------*/
+.galery-link:hover,
+.galery-link:focus {
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .cards {
   box-sizing: border-box;
   padding: 20px 24px;
